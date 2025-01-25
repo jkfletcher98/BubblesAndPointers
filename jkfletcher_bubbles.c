@@ -1,5 +1,7 @@
-// starter code
-void printValues(int*);
+#include <stdio.h>
+const int MAX = 9;
+
+void printValues(array);
 void sort(int*);
 void swap(int*, int*);
 
@@ -20,4 +22,7 @@ int main(){
 	printValues(values);
 
 	return(0);
-}
+} // end main
+
+int printValues(values){
+	printf("%d \n", values);
