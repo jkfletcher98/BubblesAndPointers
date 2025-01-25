@@ -24,5 +24,14 @@ int main(){
 	return(0);
 } // end main
 
-int printValues(values){
+int printValues(arrray){
 	printf("%d \n", values);
+}
+
+int sort(int*){
+	int i;
+	int j;
+	for i in values
+		for j in values
+			if (array[j] > array[j+1]
+}
